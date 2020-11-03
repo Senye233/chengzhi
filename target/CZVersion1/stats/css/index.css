@@ -1,10 +1,110 @@
 body{
     margin: auto;
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
 }
+
+/*首页最顶层DIV*/
 #index_top{
     margin: auto;
     width: 60%;
-    height: 100%;
-    border: 1px solid red;
 }
+/*首页最顶层DIV*/
+
+/*首页顶部菜单B*/
+.menu{
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+.menu div{
+    display: inline-block;
+    margin: 0;
+}
+.menu_left{
+    background-color: white;
+    width: 15%;
+    height: 100%;
+    float: left;
+    border-radius: 5px;
+}
+.menu_left a{
+    display: block;
+    width: 100%;
+    height: 25%;
+    line-height: 62px;
+
+    text-decoration: none;
+    color: black;
+}
+.menu_left a:last-child{
+    border-radius: 0px 0px 5px 5px;
+}
+.menu_left a:first-child{
+    border-radius: 5px 5px 0px 0px;
+}
+.menu_left a:hover{
+    background-color: #ff4800;
+    color: white;
+    font-weight: bold;
+    transition:background-color 0.5s linear
+}
+.menu_right{
+    background-color: white;
+    width: 82%;
+    height: 100%;
+    float: right;
+    border-radius: 10px;
+}
+/*首页顶部菜单E*/
+
+/*首页网站信息B*/
+.info{
+    width: 100%;
+    height: 400px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+.info div{
+    display: inline-block;
+}
+.info_top{
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+.info_left{
+    background-color: white;
+    width: 68%;
+    height: 88%;
+    float: left;
+    border-radius: 5px;
+}
+.info_right{
+    background-color: white;
+    width: 30%;
+    height: 88%;
+    float: right;
+    border-radius: 5px;
+}
+/*首页网站信息E*/
+
+/*首页最新商品B*/
+.new_product{
+    width: 100%;
+    height: 400px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+.new_product div{
+    display: inline-block;
+}
+.product_list{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+/*首页最新商品E*/
